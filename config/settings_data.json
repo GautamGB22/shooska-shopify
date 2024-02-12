@@ -1,6 +1,6 @@
 {
   "current": {
-    "color_body_bg": "#ffffff",
+    "color_body_bg": "rgba(0,0,0,0)",
     "color_body_bg_secondary": "#bcb2a8",
     "color_body_custom_bg": "#ffffff",
     "color_bg_accent": "#f5f4f1",
@@ -8,6 +8,7 @@
     "color_body_text": "#0d0d0d",
     "color_accent": "#712002",
     "color_borders_and_lines": "#bcb2a8",
+    "enable_discount_popup": false,
     "type_heading_font": "montserrat_n4",
     "heading_size": 115,
     "type_base_font": "montserrat_n4",
@@ -53,7 +54,7 @@
     "enable_subscriptions_selectors": true,
     "quick_buy_text": "description",
     "quick_buy_text_length": 30,
-    "cart_type": "drawer",
+    "cart_type": "page",
     "cart_icon": "bag",
     "enable_cart_notes": true,
     "enable_additional_buttons": true,
@@ -69,7 +70,7 @@
     "show_rounded_corners": true,
     "show_text_shadow": true,
     "mobile_menu_behaviour": "link",
-    "animations_enabled": false,
+    "animations_enabled": true,
     "show_sale_badge": true,
     "sale_bg_color": "#004ac7",
     "custom_bg_color": "#0d6e70",
@@ -109,7 +110,14 @@
     "checkout_accent_color": "#0d6e70",
     "checkout_button_color": "#0d0d0d",
     "checkout_error_color": "#b01736",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "15588394620387169604": {
+        "type": "shopify:\/\/apps\/subify-subscriptions\/blocks\/app-embed-block\/bc0dba25-cd46-4841-bea4-6bdfe9ac815f",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Vibrant": {
@@ -154,7 +162,7 @@
       "show_payment_button": false,
       "max_inventory": 5,
       "enable_subscriptions_selectors": false,
-      "cart_type": "drawer",
+      "cart_type": "page",
       "enable_cart_notes": false,
       "show_empty_cart_buttons": true,
       "empty_cart_buttons": "search-menu",
@@ -242,7 +250,7 @@
       "show_payment_button": false,
       "max_inventory": 5,
       "enable_subscriptions_selectors": true,
-      "cart_type": "drawer",
+      "cart_type": "page",
       "enable_cart_notes": true,
       "show_empty_cart_buttons": true,
       "empty_cart_buttons": "search-menu",
@@ -329,7 +337,7 @@
       "show_payment_button": false,
       "max_inventory": 5,
       "enable_subscriptions_selectors": true,
-      "cart_type": "drawer",
+      "cart_type": "page",
       "enable_cart_notes": true,
       "show_empty_cart_buttons": true,
       "empty_cart_buttons": "search-menu",
@@ -415,7 +423,7 @@
       "show_payment_button": false,
       "max_inventory": 5,
       "enable_subscriptions_selectors": true,
-      "cart_type": "drawer",
+      "cart_type": "page",
       "enable_cart_notes": true,
       "show_empty_cart_buttons": true,
       "empty_cart_buttons": "search-menu",

@@ -65,6 +65,21 @@
     ]
   },
   {
+    "name": "Discount Popup",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Discount Popup Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_discount_popup",
+        "label": "Enable Discount Popup",
+        "default": true
+      }
+    ]
+  },
+  {
     "name": "Typography",
     "settings": [
       {

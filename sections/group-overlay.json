@@ -7,14 +7,14 @@
       "blocks": {
         "popup-0": {
           "type": "popup-with-image",
-          "disabled": true,
           "settings": {
             "position": "center-center",
-            "height": "four-fifty-height",
+            "image": "shopify:\/\/shop_images\/Aura_Gold_Lapis_jewel_crop.jpg",
+            "height": "original-height",
             "title": "Sign up for 10% off",
-            "text": "<p>Let’s keep in touch. We promise we won’t bug you too much - just promotions and new releases.<\/p>",
+            "text": "<p>Let’s keep in touch.<\/p>",
             "show_newsletter_form": true,
-            "extra_fields": "",
+            "extra_fields": "name",
             "button_text": "",
             "trigger": "delayed_10",
             "target_url_enabled": false,
@@ -23,7 +23,7 @@
             "target_referrer": "",
             "target_device_enabled": false,
             "target_device": "mobile",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "text_color": "text-dark"
           }
         }
@@ -31,6 +31,7 @@
       "block_order": [
         "popup-0"
       ],
+      "disabled": true,
       "settings": {}
     }
   },

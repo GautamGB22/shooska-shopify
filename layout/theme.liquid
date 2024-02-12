@@ -251,6 +251,10 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
     {{ content_for_layout }}
   </main>
 
+  {% if settings.enable_discount_popup %}
+  {% render 'discount-popup' %}
+  {% endif %}
+
   {% sections 'group-footer' %}
 
   {%- comment -%} Photoswipe containers {%- endcomment -%}
@@ -262,5 +266,7 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
       {% render 'icon-select' %}
     </button>
   {%- endif -%}
+
+  
 </body>
 </html>

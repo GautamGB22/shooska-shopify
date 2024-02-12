@@ -67,7 +67,7 @@
       "settings": {
         "height": "one-third-height",
         "enable_mobile_height": true,
-        "mobile_height": "five-fifty-height-mobile",
+        "mobile_height": "one-third-height-mobile",
         "image": "shopify:\/\/shop_images\/rainbow_opal_copy_0ba54e5a-e373-4291-aabe-3c0878d01046.png",
         "overlay_opacity": 40,
         "enable_zoom_animation": true,

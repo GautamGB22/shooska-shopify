@@ -776,8 +776,8 @@
                     id: product_form_id,
                     data-recipient-errors: gift_card_recipient_feature_active
                   -%}
-                    {% comment %} The input with name="id" submits to cart {% endcomment %}
-                    <input type="hidden" name="id" value="{{ current_variant.id }}" data-product-select>
+                    {% comment %} The input with name="id" data-productid="{{ product.id }}" submits to cart {% endcomment %}
+                    <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ current_variant.id }}" data-product-select>
 
                     {%- unless show_quantity -%}
                       <input type="hidden" name="quantity" value="1">
@@ -1086,7 +1086,7 @@
 
                     <noscript>
                       <select
-                        name="id"
+                        name="id" data-productid="{{ product.id }}"
                         class="product__form__select"
                         aria-label="{{ product.options_with_values | map: 'name' | uniq | join: ', ' }}"
                       >
@@ -1116,7 +1116,7 @@
                       -%}
                     {%- endif -%}
 
-                    {%- if product.selling_plan_groups.size > 0 -%}
+                    {% comment %} {%- if product.selling_plan_groups.size > 0 -%}
                       {%- if enable_subscriptions_selectors -%}
                         {%- render 'subscription-form',
                           product: product,
@@ -1126,9 +1126,8 @@
                         -%}
                       {%- endif -%}
                       {%- assign animation_delay = animation_delay | plus: 100 -%}
-                      {%- comment -%} Delete the following line to block the theme from updating subscription prices {%- endcomment -%}
                       <span data-subscription-watch-price></span>
-                    {%- endif -%}
+                    {%- endif -%} {% endcomment %}
 
                     {%- if quantity_position_bottom and show_quantity -%}
                       <div
@@ -2647,8 +2646,8 @@
   {%- endcapture -%}
             {%- endif -%}
             <div class="product__form">
-              {% comment %} The input with name="id" submits to cart {% endcomment %}
-              <input type="hidden" name="id" value="{{ current_variant.id }}" data-product-select>
+              {% comment %} The input with name="id" data-productid="{{ product.id }}" submits to cart {% endcomment %}
+              <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ current_variant.id }}" data-product-select>
 
               {%- unless show_quantity -%}
                 <input type="hidden" name="quantity" value="1">
@@ -2920,7 +2919,7 @@
 
               <noscript>
                 <select
-                  name="id"
+                  name="id" data-productid="{{ product.id }}"
                   class="product__form__select"
                   aria-label="{{ product.options_with_values | map: 'name' | uniq | join: ', ' }}"
                 >
