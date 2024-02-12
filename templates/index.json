@@ -1274,6 +1274,132 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_product_CaQDCK": {
+      "type": "section-product",
+      "blocks": {
+        "title_fC7WMb": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "form_dDmnFn": {
+          "type": "form",
+          "settings": {
+            "info_page": "",
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "description_hDwNh4": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_qDnKGc": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Free shipping",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Free Returns",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "1% Donated Annually",
+            "icon_name_4": "clock",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "Feature",
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title_fC7WMb",
+        "form_dDmnFn",
+        "description_hDwNh4",
+        "icon_row_qDnKGc"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "aura-scented-car-jewel-gold-and-lapis-lazuli",
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_width": "large",
+        "hide_product_thumbnails": false,
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_look_FYVHAG": {
+      "type": "section-look",
+      "blocks": {
+        "product_Lwa3FK": {
+          "type": "product",
+          "settings": {
+            "product": "aura-scented-car-jewel-gold-and-lapis-lazuli",
+            "position_x": 31,
+            "position_y": 41
+          }
+        },
+        "product_XUfta3": {
+          "type": "product",
+          "settings": {
+            "product": "hadesh-scented-car-jewelry-gold-and-purple-agate",
+            "position_x": 50,
+            "position_y": 63
+          }
+        },
+        "product_pKqHb9": {
+          "type": "product",
+          "settings": {
+            "product": "imani-scented-car-jewel-gold-and-green-agate",
+            "position_x": 73,
+            "position_y": 47
+          }
+        }
+      },
+      "block_order": [
+        "product_Lwa3FK",
+        "product_XUfta3",
+        "product_pKqHb9"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_aspect_ratio": true,
+        "main_image_aspect_ratio": 1,
+        "title": "Shop the Look",
+        "text": "<p>Our most popular looks of the season<\/p>",
+        "text_alignment": "text-left",
+        "show_hotspots": true,
+        "content_color": "text-dark",
+        "hotspot_color": "",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1296,6 +1422,8 @@
     "section-look",
     "bcc1875f-de00-4dbb-8aa2-2a0de64deecf",
     "b4f81590-1c81-41e6-a9a8-def8ce4fbf49",
-    "f91dba82-a9f9-4019-9002-a16133ec5c98"
+    "f91dba82-a9f9-4019-9002-a16133ec5c98",
+    "section_product_CaQDCK",
+    "section_look_FYVHAG"
   ]
 }

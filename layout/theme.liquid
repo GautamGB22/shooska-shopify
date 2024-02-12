@@ -255,6 +255,8 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
   {% render 'discount-popup' %}
   {% endif %}
 
+  {% render 'discount-side-popover' %}
+
   {% sections 'group-footer' %}
 
   {%- comment -%} Photoswipe containers {%- endcomment -%}
