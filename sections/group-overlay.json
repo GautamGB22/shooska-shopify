@@ -7,6 +7,7 @@
       "blocks": {
         "popup-0": {
           "type": "popup-with-image",
+          "disabled": true,
           "settings": {
             "position": "center-center",
             "image": "shopify:\/\/shop_images\/Aura_Gold_Lapis_jewel_crop.jpg",

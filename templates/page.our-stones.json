@@ -133,19 +133,19 @@
     "section_image_with_text_LChX4h": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
         "image_location": "left",
-        "image_width": "standard",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/crystal_quartz_crop.jpg",
         "subheading": "",
-        "title": "<p><strong>CRYSTAL QUARTZ<\/strong><\/p>",
+        "title": "<p>CRYSTAL QUARTZ<\/p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Crystal quartz is revered for its potent metaphysical power, known as the \"master healer\" among crystals. It is believed to amplify energy, enhance spiritual growth, and promote clarity of mind. Crystal quartz can also be utilized to cleanse and purify other crystals, making it a versatile tool for energy work and spiritual practices.",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -156,16 +156,16 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     },
     "section_image_with_text_Gabxxz": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
-        "image_location": "right",
-        "image_width": "standard",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/lapis_lazuli.jpg",
         "subheading": "",
         "title": "<p>LAPIS LAZULI<\/p>",
@@ -174,7 +174,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Lapis Lazuli possesses potent metaphysical properties that make it a stone of wisdom, intuition, and spiritual enlightenment. It is revered for its ability to stimulate the Third Eye chakra, enhancing inner vision and intuitive abilities. Lapis Lazuli is also associated with truth, inner peace, and communication, making it a valuable tool for self-expression and spiritual growth.",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -185,16 +185,16 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     },
     "section_image_with_text_Ua74GA": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
         "image_location": "left",
-        "image_width": "standard",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/opalite_crop.jpg",
         "subheading": "",
         "title": "<p>OPALITE<\/p>",
@@ -203,7 +203,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Opalite, also known as the \"Stone of Eternity,\" possesses unique metaphysical properties that enhance spiritual communication, emotional healing, and inner strength. It is believed to activate the Crown chakra, fostering spiritual insights and connecting one to higher realms. Opalite also promotes emotional balance, soothing anxiety and promoting a sense of peace. Its luminous glow is thought to symbolize the eternal nature of the soul, offering guidance and support on one's spiritual journey.",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -214,16 +214,16 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     },
     "section_image_with_text_Ee6Wnb": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
-        "image_location": "right",
-        "image_width": "standard",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/rose_quartz.jpg",
         "subheading": "",
         "title": "<p>ROSE QUARTZ<\/p>",
@@ -232,7 +232,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Rose Quartz is a gentle and nurturing crystal with profound metaphysical properties. Known as the \"Stone of Love,\" it is associated with unconditional love, compassion, and emotional healing. Rose Quartz promotes self-love, deepens connections in relationships, and encourages forgiveness and harmony. Its soothing energy opens the heart chakra, allowing for the healing of past emotional wounds and the cultivation of love and empathy towards oneself and others.",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -243,16 +243,16 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     },
     "section_image_with_text_kJnH8j": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
         "image_location": "left",
-        "image_width": "standard",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/amethyst_crop.jpg",
         "subheading": "",
         "title": "<p>AMETHYST<\/p>",
@@ -261,7 +261,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Amethyst is a powerful crystal with metaphysical properties that promote spiritual growth, intuition, and tranquility. It is known to enhance spiritual awareness, deepen meditation, and aid in connecting with higher realms. Amethyst is also believed to have a calming effect on the mind and emotions, promoting inner peace and emotional balance.",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -272,16 +272,16 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     },
     "section_image_with_text_gP6wJq": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
-        "image_location": "right",
-        "image_width": "standard",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/green_agate_hadesh_crop.jpg",
         "subheading": "",
         "title": "<p>GREEN AGATE<\/p>",
@@ -290,7 +290,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Green Agate is a crystal with powerful metaphysical properties that promote healing, balance, and abundance. It is known for its soothing and calming energy, bringing emotional stability and harmony to the wearer. Green Agate is also believed to enhance personal growth, attract prosperity, and foster a deeper connection with nature and the Earth, making it a valuable stone for grounding and manifestation",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -301,16 +301,16 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     },
     "section_image_with_text_P6QjnV": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
         "image_location": "left",
-        "image_width": "standard",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/blue_agate_crop.jpg",
         "subheading": "",
         "title": "<p>BLUE AGATE<\/p>",
@@ -319,7 +319,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Blue Agate, is known for its Protection against negative energy and helps to transform negative energy into positive energy. Agate enhances mental function, improves concentration, and enhances perception and analytical abilities. It is a soothing gemstone that heals inner anger, and anxiety and helps in the strengthening of relationships. Agate instills security and safety.",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -330,16 +330,16 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     },
     "section_image_with_text_a49bza": {
       "type": "section-image-with-text",
       "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "overlay",
-        "image_location": "right",
-        "image_width": "standard",
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "extra-narrow",
         "image": "shopify:\/\/shop_images\/black_agate.jpg",
         "subheading": "",
         "title": "<p>BLACK AGATE<\/p>",
@@ -348,7 +348,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 130,
         "text_content": "Black Agate possesses potent metaphysical properties that make it a stone of protection, grounding, and inner strength. It is believed to shield against negative energies, providing a sense of security and stability. Black Agate assists in grounding one's energy, promoting a balanced and centered state of being. It is also thought to enhance inner strength and resilience, empowering individuals to overcome obstacles and navigate through life with confidence.",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -359,7 +359,7 @@
         "bg_color": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     }
   },

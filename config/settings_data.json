@@ -24,13 +24,13 @@
     "subheading_size": 105,
     "subheading_letter_spacing": 0,
     "type_button_font": "heading",
-    "button_style": "rounded",
+    "button_style": "pill",
     "button_size": 80,
     "button_letter_spacing": 25,
     "button_caps": true,
     "primary_buttons_color": "#000000",
     "secondary_buttons_color": "#ffffff",
-    "content_alignment": "left",
+    "content_alignment": "center",
     "products_per_row_on_desktop": 3,
     "products_per_row_on_mobile": "1",
     "image_size": "contain",
@@ -39,6 +39,7 @@
     "product_grid_hover": "image",
     "product_grid_hover_animation": "fade-in",
     "show_rating": true,
+    "cutline_color": "accent",
     "variants_style": "auto",
     "atc_button_color": "btn--black",
     "buynow_btn_style": "btn--solid-border",
@@ -73,13 +74,15 @@
     "animations_enabled": true,
     "show_sale_badge": true,
     "sale_bg_color": "#004ac7",
+    "show_custom_badge": false,
     "custom_bg_color": "#0d6e70",
     "custom_text_color": "#ffffff",
-    "show_sold_badge": false,
-    "sold_bg_color": "#0d0d0d",
-    "sold_text_color": "#000000",
-    "show_saving_badge": true,
+    "show_sold_badge": true,
+    "sold_bg_color": "#534c4c",
+    "sold_text_color": "#bfbcbc",
+    "show_saving_badge": false,
     "saving_bg_color": "#b01736",
+    "saving_badge_type": "percentage",
     "enable_color_swatches_collection": true,
     "enable_color_swatches_product": true,
     "color_swatches_product_style": "rectangle",
@@ -110,14 +113,7 @@
     "checkout_accent_color": "#0d6e70",
     "checkout_button_color": "#0d0d0d",
     "checkout_error_color": "#b01736",
-    "content_for_index": [],
-    "blocks": {
-      "15588394620387169604": {
-        "type": "shopify:\/\/apps\/subify-subscriptions\/blocks\/app-embed-block\/bc0dba25-cd46-4841-bea4-6bdfe9ac815f",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Vibrant": {

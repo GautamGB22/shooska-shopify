@@ -17,16 +17,20 @@
     "subcollections": {
       "type": "subcollections",
       "settings": {
-        "subcollections": [],
+        "subcollections": [
+          "adapters",
+          "perfume-inserts",
+          "jewels"
+        ],
         "limit": 8,
-        "layout": "grid",
+        "layout": "carousel",
         "image_source": "collection",
         "image_aspect_ratio": 0.6,
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 35,
         "bg_color": "",
         "text_color": "text-light",
         "padding_top": 30,
-        "padding_bottom": 14
+        "padding_bottom": 30
       }
     },
     "main": {
@@ -63,8 +67,8 @@
         "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
       ],
       "settings": {
-        "show_breadcrumbs": false,
-        "enable_sorting": false,
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
         "enable_filters": true,
         "filters_layout": "open",
         "show_more": true,
@@ -72,7 +76,7 @@
         "heading_style": "body",
         "bg_color": "",
         "padding_top": 30,
-        "padding_bottom": 60
+        "padding_bottom": 80
       }
     }
   },
