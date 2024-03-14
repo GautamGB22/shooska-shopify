@@ -58,36 +58,34 @@
     }
 {% endstyle %}
 
-    <div class="discount-banner-container">
-        <div class="discount-banner">
-            <a class="discount-offer-link" href="https://shooska.com/discount/FIRST10" onclick="handleOfferClick()">
-                <span>Use Code: FIRST10</span><span class="click-to-copy">(Click to copy)</span><br />
-                <span>10% OFF ON YOUR FIRST OFFER!</span>
-            </a>
-            <span class="close-btn" onclick="closePopup()">X</span>
-        </div>
-    </div>
-  
+<div class="discount-banner-container">
+  <div class="discount-banner">
+      <a class="discount-offer-link" href="https://shooska.com/discount/FIRST10" onclick="handleOfferClick()">
+          <span>Use Code: FIRST10</span><span class="click-to-copy">(Click to copy)</span><br />
+          <span>10% OFF ON YOUR FIRST OFFER!</span>
+      </a>
+      <span class="close-btn" onclick="closePopup()">X</span>
+  </div>
+</div>
+
 <script>
-    // Function to close the popup
-    function closePopup() {
+  // Function to close the popup
+  function closePopup() {
       document.querySelector('.discount-banner-container').style.display = 'none';
-    }
-  
-    // Function to handle offer link click
-    function handleOfferClick() {
-      // Check if the offer link has been clicked before
-      if (!sessionStorage.getItem('offerClicked')) {
-        // Set session storage to indicate the offer link has been clicked
-        sessionStorage.setItem('offerClicked', 'true');
+  }
+
+  // Function to handle offer link click
+  function handleOfferClick() {
+      // Set session storage to indicate the offer link has been clicked
+      sessionStorage.setItem('offerClicked', 'true');
+  }
+
+  // Check if the offer link has been clicked before
+  window.onload = function () {
+      if (sessionStorage.getItem('offerClicked')) {
+          document.querySelector('.discount-banner-container').style.display = 'none';
       }
-    }
-  
-    // Check if the offer link has been clicked before
-    window.onload = function () {
-      if (sessionStorage.getItem('offerSuccess')) {
-        document.querySelector('.discount-banner-container').style.display = 'none';
-      }
-    };
+  };
 </script>
+
   
