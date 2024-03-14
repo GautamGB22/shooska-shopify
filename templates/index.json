@@ -168,69 +168,6 @@
         "text_color": "text-light"
       }
     },
-    "00d509c3-4914-4001-81ad-985554bab885": {
-      "type": "section-banner-image",
-      "blocks": {
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Shooska is scented car jewelry, and its tranforming the driving experience<\/p>",
-            "size": 100
-          }
-        },
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "<h2>Shooska is scented car jewelry, and its tranforming the driving experience<\/h2>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#ffffff"
-          }
-        },
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shooska Scented Car Jewelry is a transformative tool designed to help you reclaim the time you spend in your car and turn it into something positive. Its a piece of artfully crafted metal and the power of gemstones, and it carries a clean, gentle, awakening fragrance for your mind, body and car.<\/p>",
-            "size": 120
-          }
-        },
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-button-1": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "Learn More",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--medium",
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/pages\/our-story",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-subheading-1",
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-heading-1",
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-text-1",
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-button-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "six-fifty-height",
-        "enable_mobile_height": true,
-        "mobile_height": "full-height-mobile",
-        "image": "shopify:\/\/shop_images\/uraAntqueSilverOpal_VintageWomanInScacropped_and_wide_6.png",
-        "overlay_opacity": 45,
-        "enable_zoom_animation": true,
-        "text_width": "normal",
-        "text_position": "left",
-        "text_color": "text-light"
-      }
-    },
     "875915f3-2d9e-46f5-aa62-db393fd8f031": {
       "type": "section-image-with-text",
       "settings": {
@@ -289,6 +226,34 @@
         "padding_bottom": 60
       }
     },
+    "7e5babe4-7087-48fd-84c2-b5a765eb4053": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "all",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-left",
+        "title": "<p>Explore our Scented Car Jewelry<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<p>With a variety of gorgeous shapes and gemstones to choose from.     <\/p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "bg_color_custom": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_look_FYVHAG": {
       "type": "section-look",
       "blocks": {
@@ -327,344 +292,14 @@
         "main_image_aspect_ratio": 1,
         "title": "Shop the Look",
         "text": "<p>Our most popular looks of the season<\/p>",
-        "text_alignment": "text-left",
+        "text_alignment": "text-center",
         "show_hotspots": true,
         "content_color": "text-dark",
-        "hotspot_color": "",
+        "hotspot_color": "rgba(0,0,0,0)",
         "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "7e5babe4-7087-48fd-84c2-b5a765eb4053": {
-      "type": "section-collection",
-      "settings": {
-        "collection": "all",
-        "products_layout": "grid",
-        "number_of_products": 8,
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "1",
-        "text_alignment": "text-left",
-        "title": "<p>Explore our Scented Car Jewelry<\/p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 100,
-        "text": "<p>With a variety of gorgeous shapes and gemstones to choose from.     <\/p>",
-        "text_size": 100,
-        "button_text": "Shop Now",
-        "button_color": "btn--black",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "bg_color_custom": false,
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "4cf35844-daa9-481f-b090-8c1bf37ee05d": {
-      "type": "section-collection",
-      "blocks": {
-        "73237c64-6f39-4429-a676-a44d096037c0": {
-          "type": "promo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Imani_Silver_Amethyst_CLEANjewel_in_use_on_grayscale_dashboard.jpg",
-            "position": 1,
-            "width": "auto",
-            "title": "",
-            "heading_highlight_type": "circle",
-            "highlight_color": "rgba(0,0,0,0)",
-            "highlight_text_color": "#000000",
-            "heading_size": 110,
-            "content": "Decorate your space in your car.",
-            "text_size": 110,
-            "text_color": "text-light",
-            "text_position": "bottom-left",
-            "layout": "stacked",
-            "overlay_opacity": 10,
-            "bg_color": "#f7f7f7",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "73237c64-6f39-4429-a676-a44d096037c0"
-      ],
-      "disabled": true,
-      "settings": {
-        "collection": "top-five",
-        "products_layout": "carousel",
-        "number_of_products": 4,
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "2",
-        "text_alignment": "text-center",
-        "title": "",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 180,
-        "text": "<p><em><strong>MORE THEN AN CAR AIR FRESHENER<\/strong><\/em><\/p><p><em><strong>WE ARE SCENTED CAR JEWELRY<\/strong><\/em><\/p>",
-        "text_size": 125,
-        "button_text": "",
-        "button_color": "btn--black",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "bg_color_custom": true,
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "de24b33b-2807-4480-8a5d-37a2aef6fe0e": {
-      "type": "section-columns",
-      "blocks": {
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-1": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-2": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/185790112_m_normal_none.jpg",
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-3": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-4": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Perfumed_Insert_Floral_Crown_3D_bottom.png",
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "6aa6d072-0fe7-482d-ba56-41e71327fcbf": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Perfumed_Insert_Feel_the_Love_3D_bottom.png",
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "c68998d1-811d-4a05-90fa-0906dcfa78a4": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Perfumed_Insert_Eucalyptus_and_Spearmint_3D_bottom.png",
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "7198a267-0a74-454a-9b95-57415f6751aa": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Perfumed_Insert_Sandalwood_and_Amber_3D_bottom.png",
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "0a71d38f-f8e6-4625-bf9f-73ed70583af9": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Perfumed_Insert_Good_Day_Sunshine_3D_bottom.png",
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-1",
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-2",
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-3",
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-4",
-        "6aa6d072-0fe7-482d-ba56-41e71327fcbf",
-        "c68998d1-811d-4a05-90fa-0906dcfa78a4",
-        "7198a267-0a74-454a-9b95-57415f6751aa",
-        "0a71d38f-f8e6-4625-bf9f-73ed70583af9"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "align_text": "text-left",
-        "columns": 4,
-        "equalize_height": false,
-        "image_aspect_ratio": 1,
-        "show_images": true,
-        "heading_size": 120,
-        "text_size": 100,
-        "bg_color_secondary": false,
-        "bg_color_custom": true,
         "width": "wrapper",
-        "padding_top": 60,
+        "padding_top": 30,
         "padding_bottom": 60
-      }
-    },
-    "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b": {
-      "type": "section-text",
-      "blocks": {
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>The Essentials<\/p>",
-            "size": 100,
-            "margin_bottom": 10
-          }
-        },
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Shop by Category<\/p>",
-            "size": 120,
-            "heading_highlight_type": "underline",
-            "highlight_color": "#0b0b0b",
-            "highlight_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0",
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--full-padded",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "b32bd861-589d-4de7-a3a8-b50076aa0436": {
-      "type": "section-grid",
-      "blocks": {
-        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-2": {
-          "type": "image",
-          "settings": {
-            "width": "50",
-            "overlay_opacity": 10,
-            "text_position": "bottom-left",
-            "subheading": "Introducing",
-            "title": "Best Sellers",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        },
-        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-3": {
-          "type": "image",
-          "settings": {
-            "width": "50",
-            "overlay_opacity": 10,
-            "text_position": "bottom-left",
-            "subheading": "Introducing",
-            "title": "New Arrivals",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        }
-      },
-      "block_order": [
-        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-2",
-        "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "650",
-        "heading_size": 150,
-        "button_1_color": "btn--secondary",
-        "button_1_style": "btn--text",
-        "button_1_size": "btn--small",
-        "button_2_color": "btn--primary",
-        "button_2_style": "btn--text",
-        "button_2_size": "btn--small",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "add_gutter": true,
-        "padding_top": 50,
-        "padding_bottom": 100
       }
     },
     "section_product_CaQDCK": {
@@ -728,6 +363,7 @@
         "description_hDwNh4",
         "icon_row_qDnKGc"
       ],
+      "disabled": true,
       "settings": {
         "product": "aura-scented-car-jewel-gold-and-lapis-lazuli",
         "product_sticky_enable": true,
@@ -743,51 +379,57 @@
         "padding_bottom": 60
       }
     },
-    "0fd0a0be-e77a-4ddb-8b85-6b42aef84431": {
-      "type": "section-press",
+    "section_columns_i8CnUD": {
+      "type": "section-columns",
       "blocks": {
-        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-0": {
-          "type": "press",
+        "text_block_eftTrM": {
+          "type": "text_block",
           "settings": {
-            "text": "<p>Instagram, etc - Contact info<\/p>",
-            "link": "",
-            "press_logo": "shopify:\/\/shop_images\/Perfumed_Insert_Refills_for_Shooska_Scented_Car_Jewelry_faux_gold.jpg",
-            "logo_width": 120
+            "image": "shopify:\/\/shop_images\/Collage_Maker-19-Sep-2023-06-09-PM-8407_4ad88bfc-77f6-4a5e-8a7c-c690a42de307.jpg",
+            "title": "",
+            "text": "<h5>Our <strong>PERFUME INSERTS <\/strong>are fragrant black cards inserted in the back of the jewel.        <\/h5><h5>Simply clip to a\/c vent to use.<\/h5><h5>  <span style=\"text-decoration:underline\">All our scents are <\/span><\/h5><ul><li><h5>Phthalate free<\/h5><\/li><li><h5>Paraben free<\/h5><\/li><li><h5>SLS, and SLES-free<\/h5><\/li><li><h5>Vegan, and never tested on animals<\/h5><\/li><\/ul><h5><em><strong>Stick this in your plant when its done.  <\/strong><\/em><\/h5><h5><em><strong>Its biodegradable.<\/strong><\/em><\/h5>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         },
-        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-1": {
-          "type": "press",
+        "text_block_tcrwCz": {
+          "type": "text_block",
           "settings": {
-            "text": "<p>Shooska Scented Car Jewelry is a transformative tool designed to help you reclaim the time you spend in your car and turn it into something positive.<\/p>",
-            "link": "",
-            "press_logo": "shopify:\/\/shop_images\/Shooska_Logo_faux_gold.png",
-            "logo_width": 120
-          }
-        },
-        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-2": {
-          "type": "press",
-          "settings": {
-            "text": "<p>How it works......<\/p>",
-            "link": "",
-            "press_logo": "shopify:\/\/shop_images\/Shooska_Scented_Car_Jewelry_faux_gold.jpg",
-            "logo_width": 120
+            "image": "shopify:\/\/shop_images\/PI_6_up.png",
+            "title": "",
+            "text": "<h4>NEVER RUN OUT OF SCENTS.  Explore our perfume refill options or we will send you new scents each season with our seasonal scent program hookup.<\/h4>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
           }
         }
       },
       "block_order": [
-        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-0",
-        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-1",
-        "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-2"
+        "text_block_eftTrM",
+        "text_block_tcrwCz"
       ],
       "settings": {
         "title": "",
-        "show_quotations": true,
-        "show_rounded_corners": false,
-        "autoplay": true,
-        "duration": 3,
+        "align_text": "text-left",
+        "columns": 2,
+        "equalize_height": false,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "heading_size": 120,
+        "text_size": 100,
         "bg_color_secondary": false,
+        "bg_color_custom": false,
         "width": "wrapper",
-        "padding_top": 20,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     },
@@ -903,17 +545,12 @@
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
     "eed1639f-4e75-408e-bbba-252f91e4ab8e",
     "8f6df1c6-0cef-4c3c-b6a4-a4c90facd7cb",
-    "00d509c3-4914-4001-81ad-985554bab885",
     "875915f3-2d9e-46f5-aa62-db393fd8f031",
     "bbcefba4-dacc-4c58-b19c-332faaec110c",
-    "section_look_FYVHAG",
     "7e5babe4-7087-48fd-84c2-b5a765eb4053",
-    "4cf35844-daa9-481f-b090-8c1bf37ee05d",
-    "de24b33b-2807-4480-8a5d-37a2aef6fe0e",
-    "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b",
-    "b32bd861-589d-4de7-a3a8-b50076aa0436",
+    "section_look_FYVHAG",
     "section_product_CaQDCK",
-    "0fd0a0be-e77a-4ddb-8b85-6b42aef84431",
+    "section_columns_i8CnUD",
     "b4f81590-1c81-41e6-a9a8-def8ce4fbf49",
     "f91dba82-a9f9-4019-9002-a16133ec5c98"
   ]

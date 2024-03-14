@@ -2,7 +2,23 @@
   "sections": {
     "main": {
       "type": "list-collections",
-      "settings": {}
+      "settings": {
+        "title": "Collections",
+        "heading_size": 100,
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 4,
+        "image_shape": "circle",
+        "image_aspect_ratio": 1,
+        "text_size": 110,
+        "overlay_text": false,
+        "layout_mobile": "grid",
+        "section_bg_color": "",
+        "section_text_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
