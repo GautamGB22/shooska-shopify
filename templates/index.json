@@ -168,6 +168,40 @@
         "text_color": "text-light"
       }
     },
+    "shooska_influencer_slider_ah7TLf": {
+      "type": "shooska-influencer-slider",
+      "blocks": {
+        "slide_hLqYnQ": {
+          "type": "Slide",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eef4c9a79a2946f781656a50d420e6e9.mp4"
+          }
+        },
+        "slide_iXDBRq": {
+          "type": "Slide",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7496390b467c453cb74bebbfb13cf0b2.mp4"
+          }
+        },
+        "slide_CD3TnV": {
+          "type": "Slide",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1d0458125e2b41cdaf0014da49e0a48d.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hLqYnQ",
+        "slide_iXDBRq",
+        "slide_CD3TnV"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SHOOSKA INFLUENCERS",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "875915f3-2d9e-46f5-aa62-db393fd8f031": {
       "type": "section-image-with-text",
       "settings": {
@@ -251,54 +285,6 @@
         "enable_slider_mobile": true,
         "width": "wrapper--full-padded",
         "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_look_FYVHAG": {
-      "type": "section-look",
-      "blocks": {
-        "product_Lwa3FK": {
-          "type": "product",
-          "settings": {
-            "product": "aura-scented-car-jewel-gold-and-lapis-lazuli",
-            "position_x": 31,
-            "position_y": 41
-          }
-        },
-        "product_XUfta3": {
-          "type": "product",
-          "settings": {
-            "product": "hadesh-scented-car-jewelry-gold-and-purple-agate",
-            "position_x": 50,
-            "position_y": 63
-          }
-        },
-        "product_pKqHb9": {
-          "type": "product",
-          "settings": {
-            "product": "imani-scented-car-jewel-gold-and-green-agate",
-            "position_x": 73,
-            "position_y": 47
-          }
-        }
-      },
-      "block_order": [
-        "product_Lwa3FK",
-        "product_XUfta3",
-        "product_pKqHb9"
-      ],
-      "settings": {
-        "enable_aspect_ratio": true,
-        "main_image_aspect_ratio": 1,
-        "title": "Shop the Look",
-        "text": "<p>Our most popular looks of the season<\/p>",
-        "text_alignment": "text-center",
-        "show_hotspots": true,
-        "content_color": "text-dark",
-        "hotspot_color": "rgba(0,0,0,0)",
-        "bg_color_secondary": false,
-        "width": "wrapper",
-        "padding_top": 30,
         "padding_bottom": 60
       }
     },
@@ -545,10 +531,10 @@
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
     "eed1639f-4e75-408e-bbba-252f91e4ab8e",
     "8f6df1c6-0cef-4c3c-b6a4-a4c90facd7cb",
+    "shooska_influencer_slider_ah7TLf",
     "875915f3-2d9e-46f5-aa62-db393fd8f031",
     "bbcefba4-dacc-4c58-b19c-332faaec110c",
     "7e5babe4-7087-48fd-84c2-b5a765eb4053",
-    "section_look_FYVHAG",
     "section_product_CaQDCK",
     "section_columns_i8CnUD",
     "b4f81590-1c81-41e6-a9a8-def8ce4fbf49",

@@ -1,0 +1,136 @@
+{%- style -%}
+    #InfluencerSlider--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .influencer-slider--container h2 {text-align: center;}
+
+    /* .tns-inner {
+        width: 100%;
+        display: flex !important;
+        justify-content: center;
+    } */
+    .my-slider {
+        width: 100% !important;
+        /* height: 500px; */
+        text-align: center;
+    }
+    /* .influencer-slide--items {
+        width: 100%;
+        height: 100%;
+    }
+    .influencer-slide--items video {
+        width: 100%;
+        height: 100%;
+    }
+    .influencer-slide--items p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 30px;
+        position: absolute;
+        inset: 40% 0;
+    }
+    .overlay.influencer-name--overlay {
+        background-color: transparent;
+        opacity: 0;
+    }
+    .overlay.influencer-name--overlay:hover {
+        background-color: #000;
+        opacity: 0.4;
+    } */
+{%- endstyle -%}
+
+<section id="InfluencerSlider--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="influencer-campaign" class="influencer-campaign--slider">
+
+    <div class="influencer-slider--container wrapper--full-padded">
+    <h2>{{ section.settings.title }}</h2>
+        <div class="my-slider">
+            {%- for block in section.blocks -%}
+                <div class="influencer-slide--items">
+                    <video autoplay muted loop>
+                        <source src="{{ block.settings.video_url }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            {% endfor %}
+          {% comment %} <div>
+            
+          </div>
+          <div>2</div>
+          <div>3</div> {% endcomment %}
+        </div>
+    </div>
+    
+</section>
+
+{% schema %}
+  {
+    "name": "Influencer Slider", 
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 60
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 60
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Slide",
+        "type": "Slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Store image"
+          },
+          {
+            "type": "url",
+            "id": "video_url",
+            "label": "Video URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Influencer Slider",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "Slide"
+          },
+          {
+            "type": "Slide"
+          },
+          {
+            "type": "Slide"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

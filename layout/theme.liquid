@@ -13,6 +13,13 @@
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
 
+  {% comment %} Tiny Slider CSS {% endcomment %}
+  {% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"> {% endcomment %}
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
   <link rel="preload" as="image" href="{{ 'loading.svg' | asset_url }}">{%- liquid
   assign loading_appearance = settings.loading_appearance
   assign image_width = settings.loading_image_width
@@ -269,6 +276,87 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
     </button>
   {%- endif -%}
 
-  
+  {% comment %} Tiny Slider JS {% endcomment %}
+  {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> {% endcomment %}
+  <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    // var slider = tns({
+    //   container: '.my-slider',
+    //   items: 3,
+    //   slideBy: 'page',
+    //   autoplay: true,
+    //   autoplayButton: false,
+    //   touch: true,
+    //   mouseDrag: true
+    // });
+
+    // var slider = tns({
+    //   container: '.my-slider',
+    //   items: 3,
+    //   slideBy: 'page',
+    //   autoplay: false,
+    //   autoplayButtonOutput: false,
+    //   mouseDrag: false,
+    //   swipeAngle: false,
+    //   arrowKeys: false,
+    //   loop: false,
+    //   controls: false,
+    //   responsive: {
+    //       950: {
+    //           items: 2
+    //       },
+    //       750: {
+    //           items: 1
+    //       }
+    //   }
+    // });
+
+    $('.my-slider').slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 200,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            fade: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+  </script>
+
 </body>
 </html>
