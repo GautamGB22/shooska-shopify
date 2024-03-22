@@ -276,46 +276,70 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
     </button>
   {%- endif -%}
 
+  <style>
+  /* Style for overlay container */
+  .overlay-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensures it's on top */
+  }
+
+  /* Style for content within the overlay */
+  .overlay-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    position: relative;
+    top: 50%;
+    margin-inline: 10%;
+  }
+
+  /* Close button style */
+  .close-btn {
+    position: absolute;
+    /* top: 10px;
+    right: 10px; */
+    cursor: pointer;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  .content h2 {
+    margin: 0;
+  }
+
+</style>
+
+  <div id="overlay-container" class="overlay-container">
+    <div class="overlay-content">
+      <span class="close-btn" onclick="closeOverlay()">X</span>
+      <div class="content">
+        <img src="{{ 'icons8-tick.gif' | file_url }}" alt="discount-applied-success-popup" />
+        <h2>10% Discount Applied Successfully!</h2>
+      </div>
+    </div>
+  </div>
+
   {% comment %} Tiny Slider JS {% endcomment %}
   {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> {% endcomment %}
   <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <script>
-    // var slider = tns({
-    //   container: '.my-slider',
-    //   items: 3,
-    //   slideBy: 'page',
-    //   autoplay: true,
-    //   autoplayButton: false,
-    //   touch: true,
-    //   mouseDrag: true
-    // });
-
-    // var slider = tns({
-    //   container: '.my-slider',
-    //   items: 3,
-    //   slideBy: 'page',
-    //   autoplay: false,
-    //   autoplayButtonOutput: false,
-    //   mouseDrag: false,
-    //   swipeAngle: false,
-    //   arrowKeys: false,
-    //   loop: false,
-    //   controls: false,
-    //   responsive: {
-    //       950: {
-    //           items: 2
-    //       },
-    //       750: {
-    //           items: 1
-    //       }
-    //   }
-    // });
-
     $('.my-slider').slick({
       dots: false,
       infinite: false,
@@ -356,6 +380,18 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
         // instead of a settings object
       ]
     });
+
+    function closeOverlay() {
+      document.getElementById('overlay-container').style.display = 'none';
+    }
+
+    // Check if discount was clicked
+    var get_discount_clicked = sessionStorage.getItem('offerClicked');
+    if (get_discount_clicked && get_discount_clicked === 'true') {
+      document.getElementById('overlay-container').style.display = 'block';
+    } else {
+      document.getElementById('overlay-container').style.display = 'none';
+    }
   </script>
 
 </body>
